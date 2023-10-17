@@ -1,0 +1,5 @@
+[ui]
+ignore.local = .hg/hgignore
+[paths]
+mbed-studio-cache = /home/studio/mbed-studio-data/library-cache/os.mbed.com/users/HeptaSatTraining2019/code/HEPTA_CDH
+default = https://os.mbed.com/users/HeptaSatTraining2019/code/HEPTA_CDH/
