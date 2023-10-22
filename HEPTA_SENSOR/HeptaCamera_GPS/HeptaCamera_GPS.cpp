@@ -724,11 +724,14 @@ void HeptaCamera_GPS::flushSerialBuffer(void)
 }
 void HeptaCamera_GPS::gga_sensing(float *time, float *latitude, char *ns, float *longitude, char *ew, int *quality, int *stnum, float *hacu, float *altitude, char *aunit, int *serial_check)
 {
+
     int ite = 0;
+    /*
     while(serial.getc()!='$') {
         ite++;
         if(ite==10000) break;
     }
+    */
     for(int i=0; i<5; i++) {
         msg[i] = serial.getc();
     }
